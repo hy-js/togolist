@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  min-width: 50vw;
+  min-height: 50vh;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.container {
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid black;
+}
+
+button, input {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #64ACA7
+}
+
+button:active {
+  background-color: #64ACA7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#light {
+  background-color: hsl(27.8, 100%, 92%);
+}
+#dark {
+  background-color: hsl(304.4, 12.3%, 42.9%);
+}
+#light main {
+  background-color: hsl(13.2, 62.3%, 80%);
+}
+#dark main {
+  background-color: #64ACA7;
+}
+#light .container {
+  background-color: hsl(13.2, 62.3%, 65.7%);
+}
+#dark .container {
+  background-color: #A7D0CD;
+}

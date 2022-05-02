@@ -1,0 +1,11 @@
+{
+  "name": "train-app",
+  "version": "1.0.0",
+  "description": "See the next train coming and add to your list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hy-js",
+  "license": "MIT"
+}

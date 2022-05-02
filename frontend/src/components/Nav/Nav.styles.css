@@ -1,0 +1,13 @@
+nav {
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   padding: 1em;
+}
+
+nav a {
+   color: white;
+   font-size: x-large;
+   padding: 0 1em;
+   text-decoration: underline;
+}
